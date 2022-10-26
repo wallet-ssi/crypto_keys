@@ -7,6 +7,7 @@ abstract class _AsymmetricOperator<T extends Key> implements Operator<T> {
       case 'P-256':
         return pc.ECCurve_secp256r1();
       case 'P-256K':
+      case 'secp256k1':
         return pc.ECCurve_secp256k1();
       case 'P-384':
         return pc.ECCurve_secp384r1();

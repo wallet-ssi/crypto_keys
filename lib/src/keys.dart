@@ -180,6 +180,7 @@ Identifier _parseCurve(String name) {
   var v = {
     'P-256': curves.p256,
     'P-256K': curves.p256k,
+    'secp256k1': curves.p256k,
     'P-384': curves.p384,
     'P-521': curves.p521,
   }[name];
